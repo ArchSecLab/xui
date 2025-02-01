@@ -1,0 +1,1 @@
+python3 /aspen-gem5/run_rocksdb.py base 100000000 0.06

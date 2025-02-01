@@ -1,0 +1,37 @@
+# Instructions to run rocksdb experiments (Figure 7)
+
+## Build gem5 and RocksDB
+First switch to the `rocksdb` branch and pull the required submodules.
+```
+git checkout rocksdb
+git submodule update --init -- aspen-gem5
+```
+
+Compile gem5 using `scons`:
+```
+scons build/X86/gem5.fast -j 24
+```
+
+Run the following scripts to create the necessary image for experiments:
+```
+./one_time_setup_rocksdb.sh
+./make_disk_rocksdb.sh
+```
+
+## Run experiments
+
+Run the experiment script. The results will be stored in the `result/rocksdb` directory:
+```
+./run_rocksdb.sh
+```
+This process can take up to a day to complete. 
+
+
+Once the terminal displays:  
+> *"It might be ready to run 'python3 plot_rocksdb.py'"*  
+
+You can generate Figure 7 by running the following command:
+```
+python3 plot_rocksdb.py
+```
+The generated figure will be saved as `result/rocksdb/figure7.pdf`

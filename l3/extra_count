@@ -1,0 +1,12 @@
+job_q->extra_work_count += __atomic_load_n(&(background_temp), __ATOMIC_ACQUIRE);
+done
+
+    __atomic_fetch_add(&(background_temp), 1, __ATOMIC_RELEASE);
+done
+
+    job_q->extra_work_count += __atomic_load_n(&(background_temp), __ATOMIC_ACQUIRE);
+__atomic_exchange_n(&(background_temp), 0, __ATOMIC_RELEASE);
+done
+
+    static uint64_t background_temp = 0;
+done static uint64_t background = 0;
