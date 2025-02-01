@@ -50,3 +50,4 @@ boards*
 Bootlog
 ulog
 done*
+!src/**
