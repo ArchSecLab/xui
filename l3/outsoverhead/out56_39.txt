@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "/home/berk/gem5-interrupt2/paralel/dir39/x86-ubuntu-run-with-kvm-uipi-template-processor-spec.py", line 1, in <module>
+    from string import Template
+  File "/usr/lib/python3.10/string.py", line 52, in <module>
+    import re as _re
+  File "/usr/lib/python3.10/re.py", line 125, in <module>
+    import sre_compile
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 969, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1091, in path_stats
+  File "<frozen importlib._bootstrap_external>", line 140, in _path_stat
+KeyboardInterrupt

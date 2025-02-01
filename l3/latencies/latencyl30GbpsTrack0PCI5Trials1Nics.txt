@@ -1,0 +1,5 @@
+===
+Background cycles: 1817796
+Network cycles: 0
+Poll cycles: 0
+Forwarded packets: 0

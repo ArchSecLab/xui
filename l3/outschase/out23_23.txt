@@ -1,0 +1,164 @@
+ImportError: cannot import name 'setMaxInstsHack' from 'gem5.components.processors.simple_core' (unknown location)
+
+At:
+  x86-ubuntu-run-with-kvm-uipi-spec.py(50): <module>
+  src/python/m5/main.py(629): main
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 23.0.0.0
+gem5 compiled Oct 17 2024 09:54:38
+gem5 started Nov 10 2024 22:53:54
+gem5 executing on sapphire, pid 912922
+command line: ./g x86-ubuntu-run-with-kvm-uipi-spec.py
+
+ImportError: cannot import name 'setMaxInstsHack' from 'gem5.components.processors.simple_core' (unknown location)
+
+At:
+  x86-ubuntu-run-with-kvm-uipi-spec.py(50): <module>
+  src/python/m5/main.py(629): main
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 23.0.0.0
+gem5 compiled Oct 17 2024 09:54:38
+gem5 started Nov 10 2024 22:53:55
+gem5 executing on sapphire, pid 913102
+command line: ./g x86-ubuntu-run-with-kvm-uipi-spec.py
+
+ImportError: cannot import name 'setMaxInstsHack' from 'gem5.components.processors.simple_core' (unknown location)
+
+At:
+  x86-ubuntu-run-with-kvm-uipi-spec.py(50): <module>
+  src/python/m5/main.py(629): main
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 23.0.0.0
+gem5 compiled Oct 17 2024 09:54:38
+gem5 started Nov 10 2024 22:53:56
+gem5 executing on sapphire, pid 913266
+command line: ./g x86-ubuntu-run-with-kvm-uipi-spec.py
+
+ImportError: cannot import name 'setMaxInstsHack' from 'gem5.components.processors.simple_core' (unknown location)
+
+At:
+  x86-ubuntu-run-with-kvm-uipi-spec.py(50): <module>
+  src/python/m5/main.py(629): main
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 23.0.0.0
+gem5 compiled Oct 17 2024 09:54:38
+gem5 started Nov 10 2024 22:53:57
+gem5 executing on sapphire, pid 913431
+command line: ./g x86-ubuntu-run-with-kvm-uipi-spec.py
+
+ImportError: cannot import name 'setMaxInstsHack' from 'gem5.components.processors.simple_core' (unknown location)
+
+At:
+  x86-ubuntu-run-with-kvm-uipi-spec.py(50): <module>
+  src/python/m5/main.py(629): main
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 23.0.0.0
+gem5 compiled Oct 17 2024 09:54:38
+gem5 started Nov 10 2024 22:53:58
+gem5 executing on sapphire, pid 913597
+command line: ./g x86-ubuntu-run-with-kvm-uipi-spec.py
+
+ImportError: cannot import name 'setMaxInstsHack' from 'gem5.components.processors.simple_core' (unknown location)
+
+At:
+  x86-ubuntu-run-with-kvm-uipi-spec.py(50): <module>
+  src/python/m5/main.py(629): main
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 23.0.0.0
+gem5 compiled Oct 17 2024 09:54:38
+gem5 started Nov 10 2024 22:53:59
+gem5 executing on sapphire, pid 913784
+command line: ./g x86-ubuntu-run-with-kvm-uipi-spec.py
+
+ImportError: cannot import name 'setMaxInstsHack' from 'gem5.components.processors.simple_core' (unknown location)
+
+At:
+  x86-ubuntu-run-with-kvm-uipi-spec.py(50): <module>
+  src/python/m5/main.py(629): main
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 23.0.0.0
+gem5 compiled Oct 17 2024 09:54:38
+gem5 started Nov 10 2024 22:54:00
+gem5 executing on sapphire, pid 913948
+command line: ./g x86-ubuntu-run-with-kvm-uipi-spec.py
+
+ImportError: cannot import name 'setMaxInstsHack' from 'gem5.components.processors.simple_core' (unknown location)
+
+At:
+  x86-ubuntu-run-with-kvm-uipi-spec.py(50): <module>
+  src/python/m5/main.py(629): main
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 23.0.0.0
+gem5 compiled Oct 17 2024 09:54:38
+gem5 started Nov 10 2024 22:54:01
+gem5 executing on sapphire, pid 914135
+command line: ./g x86-ubuntu-run-with-kvm-uipi-spec.py
+
+ImportError: cannot import name 'setMaxInstsHack' from 'gem5.components.processors.simple_core' (unknown location)
+
+At:
+  x86-ubuntu-run-with-kvm-uipi-spec.py(50): <module>
+  src/python/m5/main.py(629): main
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 23.0.0.0
+gem5 compiled Oct 17 2024 09:54:38
+gem5 started Nov 10 2024 22:54:02
+gem5 executing on sapphire, pid 914300
+command line: ./g x86-ubuntu-run-with-kvm-uipi-spec.py
+
+ImportError: cannot import name 'setMaxInstsHack' from 'gem5.components.processors.simple_core' (unknown location)
+
+At:
+  x86-ubuntu-run-with-kvm-uipi-spec.py(50): <module>
+  src/python/m5/main.py(629): main
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 23.0.0.0
+gem5 compiled Oct 17 2024 09:54:38
+gem5 started Nov 10 2024 22:54:03
+gem5 executing on sapphire, pid 914466
+command line: ./g x86-ubuntu-run-with-kvm-uipi-spec.py
+
+ImportError: cannot import name 'setMaxInstsHack' from 'gem5.components.processors.simple_core' (unknown location)
+
+At:
+  x86-ubuntu-run-with-kvm-uipi-spec.py(50): <module>
+  src/python/m5/main.py(629): main
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 23.0.0.0
+gem5 compiled Oct 17 2024 09:54:38
+gem5 started Nov 10 2024 22:54:04
+gem5 executing on sapphire, pid 914630
+command line: ./g x86-ubuntu-run-with-kvm-uipi-spec.py
+
+gem5 has encountered a segmentation fault!
+
+--- BEGIN LIBC BACKTRACE ---
+./g(+0x1803f80)[0x560919fb2f80]
+./g(+0x1828325)[0x560919fd7325]
+/lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x7f13cd042520]
+[0x56091bf00830]
+--- END LIBC BACKTRACE ---
+For more info on how to address this issue, please visit https://www.gem5.org/documentation/general_docs/common-errors/ 
+
