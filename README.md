@@ -23,4 +23,7 @@ and:
 ps aux | grep ./g
 ```
 
-The timer, and profile experiments are the fastest running ones, we suggest finishing them first. The longest running experiment is the rocksdb experiment, expected to take 1.5 to 2 days. Accelerator experiments take around 10 hours. Overhead, safepoint, and l3 experiments each take 4-5 hours.
+The timer, and profile experiments are the fastest running ones, we suggest finishing them first. The longest running experiment is the rocksdb experiment, expected to take 1.5 to 2 days. Accelerator experiments take around 10 hours. Overhead, safepoint, and l3 experiments each take 4-5 hours
+
+Please run this in the current directory:
+```mkdir mnt```

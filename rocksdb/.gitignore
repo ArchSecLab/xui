@@ -52,3 +52,4 @@ Bootlog
 ulog
 done*
 !src/**
+!build_tools/**
