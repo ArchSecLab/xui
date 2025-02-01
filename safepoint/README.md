@@ -1,13 +1,6 @@
 # Instructions to run safepoint experiments (Figure 6)
 
 ## Build gem5 and benchmark programs
-Pull the required submodules.
-
-```
-git submodule update --init -- aspen-gem5
-```
-If you have previously pulled the submodule and made modifications, the submodule update command may abort. In that case, consider renaming or backing up the existing `aspen-gem5` directory before running the update again.
-
 
 Compile gem5 using `scons`:
 
