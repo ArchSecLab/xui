@@ -7,6 +7,17 @@ As we use gem5 simulator with custom ubuntu images that have modified versions o
 * [l3 image](https://app.box.com/s/4tnrncpcrmcf7wrd972s456k3engf63e)
 * [accelerator+overhead image](https://app.box.com/s/i8h5k7chy78sb0rwlg7qvqwkm8livkpq)
 
+Here is how you can download the archives:
+```
+curl -L https://app.box.com/shared/static/i8h5k7chy78sb0rwlg7qvqwkm8livkpq.gz --output ubuntu-accel-overhead.tar.gz
+```
+```
+curl -L https://app.box.com/shared/static/4tnrncpcrmcf7wrd972s456k3engf63e.gz --output ubuntu-l3.tar.gz
+```
+```
+curl -L https://app.box.com/shared/static/f0prgc71ik9pyodb2blvhn2pktexosko.tar --output ubuntu7.tar
+```
+
 There are also 2 experiments that involve a specific cpu feature (Intel User Interrupts), you might get unexpected results if you have a different cpu, as such we suggest the evaluator use our servers.
 
 The gem5 simulations can take a long time, if you are pressed on time please let us know so that we can arrange a machine for speeding up the process.
