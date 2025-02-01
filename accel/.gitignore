@@ -52,3 +52,4 @@ done*
 !src/**
 !build_tools/**
 !util/**
+!ext/**
