@@ -1,0 +1,17 @@
+#!/bin/bash -
+
+sysfs_opts=nodev,noexec,nosuid
+mount -n -t sysfs -o ${sysfs_opts} sysfs /sys
+mount -t proc proc /proc
+mount -t tmpfs tmpfs /tmp
+/sbin/m5 readfile > /tmp/script
+chmod 755 /tmp/script
+if [ -s /tmp/script  ]
+then
+    # If there is a script, execute the script and then exit the simulation
+    su root -c '/tmp/script' # gives script full privileges as root user in multi-user mode
+    sync
+    sleep 10
+    /sbin/m5 exit
+fi
+echo "No script found"

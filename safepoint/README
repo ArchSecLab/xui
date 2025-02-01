@@ -1,0 +1,32 @@
+# Instructions to run safepoint experiments (Figure 6)
+
+## Build gem5 and benchmark programs
+First switch to the `safepoint` branch and pull the required submodules.
+
+```
+git checkout safepoint
+git submodule update --init -- aspen-gem5
+```
+
+Compile gem5 using `scons`:
+
+```
+scons build/X86/gem5.fast -j 24
+```
+
+Run the following scripts to create the necessary image for experiments:
+
+```
+./one_time_setup_safepoint.sh
+./make_disk_safepoint.sh
+```
+
+## Run experiments
+
+Run the experiment script. The results will be stored in the `result/safepoint` directory:
+
+```
+./run_safepoint.sh
+```
+
+The generated figure will be saved as `result/safepoint/figure6.pdf`

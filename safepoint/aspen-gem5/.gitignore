@@ -1,0 +1,11 @@
+*.d
+*.o
+*.a
+!libm5.a
+*.bc
+*.ll
+[._]*.sw[a-p]
+iokerneld
+*~
+.cproject
+.project

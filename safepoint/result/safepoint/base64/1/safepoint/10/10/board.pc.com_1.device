@@ -1,0 +1,37 @@
+Linux version 6.0.0 (root@(none)) (gcc (Ubuntu 11.4.0-2ubuntu1~20.04) 11.4.0, GNU ld (GNU Binutils) 2.36.1) #26 SMP Sun Aug 25 08:30:15 UTC 2024
+Command line: earlyprintk=ttyS0 console=ttyS0 root=/dev/sda1 intel_idle. max_cstate=0 idle=nomwait lpj=7999923 notsc
+x86/fpu: x87 FPU will use FXSAVE
+signal: max sigframe size: 1440
+BIOS-provided physical RAM map:
+BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+BIOS-e820: [mem 0x000000000009fc00-0x00000000000fffff] reserved
+BIOS-e820: [mem 0x0000000000100000-0x00000000bfffffff] usable
+BIOS-e820: [mem 0x00000000ffff0000-0x00000000ffffffff] reserved
+BIOS-e820: [mem 0x0000000100000000-0x000000043fffffff] usable
+printk: bootconsole [earlyser0] enabled
+NX (Execute Disable) protection: active
+SMBIOS 2.5 present.
+DMI:  , BIOS  06/08/2008
+tsc: Fast TSC calibration failed
+last_pfn = 0x440000 max_arch_pfn = 0x400000000
+Disabled
+x86/PAT: MTRRs disabled, skipping PAT initialization too.
+CPU MTRRs all blank - virtualized system.
+x86/PAT: Configuration [0-7]: WB  WT  UC- UC  WB  WT  UC- UC  
+last_pfn = 0xc0000 max_arch_pfn = 0x400000000
+found SMP MP-table at [mem 0x000f0050-0x000f005f]
+ACPI: Early table checksum verification disabled
+ACPI: RSDP 0x00000000000F0210 000024 (v02       )
+ACPI: XSDT 0x00000000000F0258 000024 (v01                 00000000      00000000)
+ACPI BIOS Error (bug): Invalid table length 0x24 in RSDT/XSDT (20220331/tbutils-289)
+Zone ranges:
+  DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+  DMA32    [mem 0x0000000001000000-0x00000000ffffffff]
+  Normal   [mem 0x0000000100000000-0x000000043fffffff]
+Movable zone start for each node
+Early memory node ranges
+  node   0: [mem 0x0000000000001000-0x000000000009efff]
+  node   0: [mem 0x0000000000100000-0x00000000bfffffff]
+  node   0: [mem 0x0000000100000000-0x000000043fffffff]
+Initmem setup node 0 [mem 0x0000000000001000-0x000000043fffffff]
+On node 0, zone DMA: 1 pages in unavailable ranges

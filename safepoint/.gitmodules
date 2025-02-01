@@ -1,0 +1,7 @@
+[submodule "uintr-measure"]
+	path = uintr-measure
+	url = https://github.com/PLSysSec/uintr-measure/
+[submodule "aspen-gem5"]
+	path = aspen-gem5
+	url = https://github.com/LinsongGuo/aspen-gem5.git
+	branch = safepoint
