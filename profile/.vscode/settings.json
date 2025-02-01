@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "vmx.h": "c",
+        "kvm.h": "c"
+    }
+}

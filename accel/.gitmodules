@@ -1,0 +1,3 @@
+[submodule "uintr-measure"]
+	path = uintr-measure
+	url = https://github.com/PLSysSec/uintr-measure/

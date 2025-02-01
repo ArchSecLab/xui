@@ -1,0 +1,15 @@
+[
+ {
+  "directory": "/data/dzuberi/DriverSrcLinux/user_code",
+  "arguments": [
+   "gcc",
+   "mon.c",
+   "-o",
+   "mon",
+   "-muintr",
+   "-O3",
+   "-g"
+  ],
+  "file": "mon.c"
+ }
+]

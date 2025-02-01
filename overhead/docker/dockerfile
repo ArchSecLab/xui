@@ -1,0 +1,8 @@
+FROM gcr.io/gem5-test/ubuntu-22.04_all-dependencies:v22-1
+
+ENV GEM5_RESOURCE_DIR="/gem5/resources"
+
+RUN apt-get update -y && \ 
+    apt-get install qemu -y 
+
+WORKDIR /gem5

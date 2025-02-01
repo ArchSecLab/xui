@@ -1,0 +1,16 @@
+base64
+chase_cc
+cpuid
+fib
+linpack
+matmul
+matmul_int
+mcf
+memops
+nop
+rdtsc
+sum
+perf
+results
+results_w_turbo
+tmp

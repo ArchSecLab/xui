@@ -1,0 +1,6 @@
+results
+results-*
+*.so
+*.o
+timer
+tmp
