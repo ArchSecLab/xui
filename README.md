@@ -39,4 +39,4 @@ The timer, and profile experiments are the fastest running ones, we suggest fini
 Please run this in the current directory:
 ```mkdir mnt```
 
-Please make sure you also have results directory in each folder.
+Please make sure you also have "result" directory in each folder.
